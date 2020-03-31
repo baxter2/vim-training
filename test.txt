@@ -5,8 +5,12 @@ Line 4
 
 Customization
 
-Vim is highly customizable and extensible, making it an attractive tool for users that demand a large amount of control and flexibility over their text editing environment. Text input is facilitated by a variety of features designed to increase keyboard efficiency. Users can execute complex commands with "key mappings," which can be customized and extended. The "recording" feature allows for the creation of macros to automate sequences of keystrokes and call internal or user-defined functions and mappings. Abbreviations, similar to macros and key mappings, facilitate the expansion of short strings of text into longer ones and can also be used to correct mistakes. Vim also features an "easy" mode for users looking for a simpler text editing solution.
+Vim is highly customizable and extensible, making it an attractive tool for users that demand a large amount of control and flexibility over their text editing environment. Text inout is facilitated by a variety of features designed to increase keyboard efficiency. Users can execute complex commands with "key mappings," which can be customized and extended. The "recording" feature allows for the creation of macros to automate sequences of keystrokes and call internal or user-defined functions and mappings. Abbreviations, similar to macros and key mappings, facilitate the expansion of short strings of text into longer ones and can also be used to correct mistakes. Vim also features an "easy" mode for users looking for a simpler text editing solution.
+
+def talk
+  puts "hello world"
+end
 
 There are many plugins available that will extend or add new functionality to Vim, such as linters, integration with Git, showing colors in CSS. These complex scripts are usually written in Vim's internal scripting language, vimscript (also known as VimL), but can be written in some other languages as well.
 
-There are projects bundling together complex scripts and customizations and aimed at turning Vim into a tool for a specific task or adding a major flavour to its behaviour. Examples include Cream, which makes Vim behave like a click-and-type editor, or VimOutliner, which provides a comfortable outliner for users of Unix-like systems.
+There are projects bundling together complex scripts and customizations and aimed at turning vim into a tool for a specific task or adding a major flavour to its behaviour. Examoles include Cream, which makes Vim behave like a click-and-type editor, or VimOutliner, which provides a comfortable outliner for users of Unix-like systems.
